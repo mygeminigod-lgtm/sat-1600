@@ -1,0 +1,93 @@
+[
+  {
+    "range": "800-1000",
+    "title": "800 → 1000: Mastering Core Arithmetic & Reading Comprehension",
+    "focusAreas": [
+      "Fractions, decimals, percentages, and basic linear algebra",
+      "Subject-verb agreement and fundamental sentence punctuation",
+      "Passage skimming vs active close reading"
+    ],
+    "typicalWeaknesses": "Gaps in pre-algebra foundations, reading fatigue, running out of time on module 1.",
+    "studyHoursNeeded": "40 - 60 hours",
+    "recommendedResources": ["Khan Academy Foundations", "College Board Bluebook Test 1"],
+    "plateauBreakthrough": "Focus purely on getting every Easy and Medium question correct. Skip difficult questions initially and ensure no points are lost on basic math operations."
+  },
+  {
+    "range": "1000-1200",
+    "title": "1000 → 1200: Solidifying High-Yield Grammar & Linear Equations",
+    "focusAreas": [
+      "Standard English Conventions (comma rules, apostrophes, semicolons)",
+      "Slope-intercept form (y = mx + b), systems of equations",
+      "Transitions and Rhetorical Synthesis in Reading & Writing"
+    ],
+    "typicalWeaknesses": "Careless signs in algebra, guessing on rhetorical synthesis, passive reading of literature passages.",
+    "studyHoursNeeded": "50 - 70 hours",
+    "recommendedResources": ["Khan Academy Medium Drills", "Erica Meltzer Grammar Chapter 1-6", "Official Question Bank"],
+    "plateauBreakthrough": "Grammar rules on the SAT are 100% predictable and rule-based. Memorizing punctuation boundaries guarantees a 50-80 point jump in Reading & Writing."
+  },
+  {
+    "range": "1200-1300",
+    "title": "1200 → 1300: Unlocking Advanced Math & Inference Skills",
+    "focusAreas": [
+      "Quadratics, polynomials, exponent rules, and functions",
+      "Logical inference questions and command of textual evidence",
+      "Two-way probability tables and basic statistics"
+    ],
+    "typicalWeaknesses": "Falling for distractors in command-of-evidence questions, struggling with wordy math problems.",
+    "studyHoursNeeded": "40 - 60 hours",
+    "recommendedResources": ["College Panda Math", "UWorld targeted drills", "Bluebook Test 2 & 3"],
+    "plateauBreakthrough": "Do not read the full passage over and over. Identify the exact claim being made and match the strict textual evidence without extrapolating."
+  },
+  {
+    "range": "1300-1400",
+    "title": "1300 → 1400: Achieving Consistent Module 2 Hard-Routing",
+    "focusAreas": [
+      "Mastering Desmos graphing shortcuts to solve hard questions in seconds",
+      "Circle theorems, trigonometry, and complex nonlinear systems",
+      "Words in context: building collegiate-level academic vocabulary"
+    ],
+    "typicalWeaknesses": "Getting routed to the easier Module 2 due to 3-4 careless errors in Module 1, time pressure in Module 2.",
+    "studyHoursNeeded": "50 - 70 hours",
+    "recommendedResources": ["PrepPros Desmos Guide", "Erica Meltzer Critical Reader", "Official Question Bank Hard Drills"],
+    "plateauBreakthrough": "To score 1350+, you MUST qualify for the harder Module 2. Treat Module 1 like a minefield: double-check the first 15 questions before moving forward."
+  },
+  {
+    "range": "1400-1500",
+    "title": "1400 → 1500: Eliminating Careless Errors & Pacing Mastery",
+    "focusAreas": [
+      "Rigorous error journaling in the Mistake Book",
+      "Graph and data interpretation in Reading/Writing (Quantitative Evidence)",
+      "Timing buffer: finishing Module 1 with 8+ minutes for review"
+    ],
+    "typicalWeaknesses": "Misreading 'Which of the following is NOT true?' or solving for x when the question asked for 2x + 1.",
+    "studyHoursNeeded": "60 - 80 hours",
+    "recommendedResources": ["1600.io Orange Books", "Full Bluebook Proctored Exams 4-6", "Targeted Mistake Book re-tests"],
+    "plateauBreakthrough": "At 1400+, you know the concepts. Your enemy is misreading questions. Underline what is being solved for before writing down any math."
+  },
+  {
+    "range": "1500-1550",
+    "title": "1500 → 1550: Conquering the Hardest 5% of Digital SAT Items",
+    "focusAreas": [
+      "Obscure vocabulary in context with subtle secondary definitions",
+      "Tricky constant problems (e.g., 'for what value of a does the system have no real solutions?')",
+      "Maintaining sustained cognitive focus across 2.5 hours without mental lapse"
+    ],
+    "typicalWeaknesses": "Losing 1-2 questions on subjective-feeling reading inferences, subtle algebraic edge cases.",
+    "studyHoursNeeded": "50 - 80 hours of high-intensity error analysis",
+    "recommendedResources": ["Official Educator Question Bank (Hard only)", "Deep Mistake Book categorization"],
+    "plateauBreakthrough": "Every missed question must be categorized by root cause. If you miss a question, explain WHY the 3 wrong choices are 100% indisputably incorrect."
+  },
+  {
+    "range": "1550-1600",
+    "title": "1550 → 1600: The Zero-Mistake Standard",
+    "focusAreas": [
+      "Perfection across both sections with zero unforced errors",
+      "3-Pass Test Taking Method: Pass 1 (instant solves), Pass 2 (tough items), Pass 3 (audit all answers)",
+      "Psychological composure and handling unexpected problem formulations"
+    ],
+    "typicalWeaknesses": "Second-guessing correct answers, rushing in the first 5 minutes of a module.",
+    "studyHoursNeeded": "30 - 50 hours of precision fine-tuning",
+    "recommendedResources": ["Flawless Mistake Book mastery", "Full timed test simulations with official Bluebook proctoring"],
+    "plateauBreakthrough": "Never change an answer unless you can point to a concrete mathematical or textual proof that your first intuition was flawed."
+  }
+]

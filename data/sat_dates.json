@@ -1,0 +1,83 @@
+[
+  {
+    "id": "sat-aug-2024",
+    "testDate": "August 24, 2024",
+    "regDeadline": "August 9, 2024",
+    "lateDeadline": "August 13, 2024",
+    "scoreRelease": "September 6, 2024",
+    "isInternational": true,
+    "notes": "Fall kickoff test; high demand globally. Recommended for rising seniors."
+  },
+  {
+    "id": "sat-oct-2024",
+    "testDate": "October 5, 2024",
+    "regDeadline": "September 20, 2024",
+    "lateDeadline": "September 24, 2024",
+    "scoreRelease": "October 18, 2024",
+    "isInternational": true,
+    "notes": "Critical date for Early Action (EA) and Early Decision (ED) college applicants."
+  },
+  {
+    "id": "sat-nov-2024",
+    "testDate": "November 2, 2024",
+    "regDeadline": "October 18, 2024",
+    "lateDeadline": "October 22, 2024",
+    "scoreRelease": "November 15, 2024",
+    "isInternational": true,
+    "notes": "Available internationally and domestically."
+  },
+  {
+    "id": "sat-dec-2024",
+    "testDate": "December 7, 2024",
+    "regDeadline": "November 22, 2024",
+    "lateDeadline": "November 26, 2024",
+    "scoreRelease": "December 20, 2024",
+    "isInternational": true,
+    "notes": "Final test administration in time for Regular Decision (RD) January university deadlines."
+  },
+  {
+    "id": "sat-mar-2025",
+    "testDate": "March 8, 2025",
+    "regDeadline": "February 21, 2025",
+    "lateDeadline": "February 25, 2025",
+    "scoreRelease": "March 21, 2025",
+    "isInternational": true,
+    "notes": "Spring kickoff administration. Ideal for high school juniors starting their first official attempt."
+  },
+  {
+    "id": "sat-may-2025",
+    "testDate": "May 3, 2025",
+    "regDeadline": "April 18, 2025",
+    "lateDeadline": "April 22, 2025",
+    "scoreRelease": "May 16, 2025",
+    "isInternational": true,
+    "notes": "Note: coincides closely with AP Exam season; manage study schedules accordingly."
+  },
+  {
+    "id": "sat-jun-2025",
+    "testDate": "June 7, 2025",
+    "regDeadline": "May 22, 2025",
+    "lateDeadline": "May 27, 2025",
+    "scoreRelease": "June 20, 2025",
+    "isInternational": true,
+    "notes": "End of academic school year administration."
+  },
+  {
+    "id": "sat-aug-2025",
+    "testDate": "August 23, 2025",
+    "regDeadline": "August 8, 2025",
+    "lateDeadline": "August 12, 2025",
+    "scoreRelease": "September 5, 2025",
+    "isInternational": true,
+    "notes": "Anticipated dates for the 2025-2026 testing cycle; confirm on College Board portal."
+  },
+  {
+    "id": "sat-oct-2025",
+    "testDate": "October 4, 2025",
+    "regDeadline": "September 19, 2025",
+    "lateDeadline": "September 23, 2025",
+    "scoreRelease": "October 17, 2025",
+    "isInternational": true,
+    "notes": "Anticipated dates for 2025-2026 early college admissions."
+  }
+]

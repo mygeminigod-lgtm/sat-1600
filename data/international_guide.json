@@ -1,0 +1,72 @@
+{
+  "title": "Ultimate International Student SAT Guide",
+  "lastUpdated": "2025-2026 Academic Testing Cycle",
+  "sections": [
+    {
+      "id": "device-bluebook",
+      "title": "Digital SAT Device & Bluebook Requirements",
+      "summary": "Everything you need to know about testing on your own laptop or tablet abroad.",
+      "points": [
+        "Approved devices: Windows laptop (Windows 10/11), Mac laptop (macOS 11.4 or higher), iPad (iPadOS 14+), or school-managed Chromebook.",
+        "Bluebook app must be downloaded at least 1-2 weeks before test day from bluebook.collegeboard.org.",
+        "Your device must hold a charge for at least 3-4 hours. Even if test centers provide outlets, outlets are NOT guaranteed for every student. Bring a fully charged power bank if permitted or make sure your battery health is strong.",
+        "Bring the correct electrical plug adapter (Type A/B/C/G, etc.) if testing in a country or hotel with different wall outlets.",
+        "If you do not own a compatible device, you can request a loaner device from College Board directly, but requests MUST be submitted at least 30 calendar days before the test date."
+      ]
+    },
+    {
+      "id": "id-requirements",
+      "title": "Strict International ID Rules: The Passport Mandate",
+      "summary": "Avoid getting turned away at the test center entrance.",
+      "points": [
+        "In most countries outside the United States, an original, valid, government-issued PASSPORT is the ONLY accepted form of identification.",
+        "Your full legal name on your College Board account MUST match your passport character-for-character (including middle names).",
+        "Photocopies, digital photos on phones, or expired passports are NEVER accepted under any circumstance.",
+        "In certain countries (like India, Pakistan, Nigeria), specific regional national IDs (e.g. Aadhaar letter/card in India with specific conditions) may have strict guidelines; check College Board's country-specific ID page before registration."
+      ]
+    },
+    {
+      "id": "fees-payments",
+      "title": "International Fees & Payment Processing",
+      "summary": "Managing international surcharges and bank declines.",
+      "points": [
+        "Base SAT registration fee is $68 USD + an International Regional Fee ($43 - $53 USD depending on region), bringing total cost to roughly $111 - $121 USD.",
+        "Accepted payment methods: Major international credit/debit cards (Visa, MasterCard, American Express, Discover) and PayPal.",
+        "Crucial tip: Contact your local bank in advance to authorize international US Dollar ($USD) online transactions, or enable 3D Secure / OTP to prevent last-minute payment declines during registration.",
+        "Fee waivers: While standard fee waivers are generally restricted to US citizens/residents, certain international partner organizations and US Embassy EducationUSA centers occasionally offer testing vouchers."
+      ]
+    },
+    {
+      "id": "test-center-strategy",
+      "title": "Test Center Scarcity & Early Booking Strategy",
+      "summary": "How to secure a seat when local centers sell out quickly.",
+      "points": [
+        "In countries across Asia, Europe, the Middle East, and Latin America, test center seats can sell out within 48-72 hours of registration opening.",
+        "Register at least 2-3 months before your intended test date.",
+        "If your city is fully booked, look for centers in neighboring cities or international airports with direct transit.",
+        "Check back on the portal during the late registration window: seats frequently open up when students cancel or move dates."
+      ]
+    },
+    {
+      "id": "english-challenges",
+      "title": "Mastering the Reading/Writing Section as an Non-Native Speaker",
+      "summary": "How international students conquer the nuanced vocabulary and idiom questions.",
+      "points": [
+        "Standard English Conventions are your easiest points: unlike subjective prose, punctuation and grammar rules are 100% systematic.",
+        "Focus on 'Words in Context': memorize common SAT academic roots, prefixes, and secondary meanings (e.g. 'pedestrian' meaning ordinary/dull, not just someone walking).",
+        "Rhetorical synthesis questions (the bullet points) do NOT require prior knowledge of the topic. Always read the question stem FIRST to identify the student's exact goal (e.g. 'emphasize a difference' or 'introduce the discovery to an audience unfamiliar with the topic').",
+        "Eliminate answers with extreme language: Digital SAT reading passages rarely endorse sweeping superlatives like 'completely refuted' or 'unquestionably superior'."
+      ]
+    },
+    {
+      "id": "admissions-waivers",
+      "title": "SAT vs TOEFL / IELTS / Duolingo English Waivers",
+      "summary": "Using your SAT Reading & Writing score to waive English proficiency exams.",
+      "points": [
+        "Many top US universities (e.g. Columbia, NYU, Boston University) will automatically WAIVE the TOEFL/IELTS requirement if you score 650+ or 700+ on the SAT Reading and Writing section.",
+        "This saves you $200 - $300 in English proficiency exam fees and simplifies your application paperwork.",
+        "Always verify each university's specific international admissions requirements page to confirm minimum score thresholds."
+      ]
+    }
+  ]
+}

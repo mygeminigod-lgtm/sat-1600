@@ -1,0 +1,124 @@
+{
+  "math": {
+    "name": "SAT Math",
+    "totalQuestions": 44,
+    "totalMinutes": 70,
+    "modules": 2,
+    "domains": [
+      {
+        "id": "algebra",
+        "name": "Algebra",
+        "weightPercentage": "35%",
+        "questionCount": "13-15 questions",
+        "description": "Linear equations, linear functions, linear inequalities, and systems of linear equations.",
+        "skills": [
+          { "id": "linear_equations_one_var", "name": "Linear equations in one variable", "importance": "high" },
+          { "id": "linear_functions", "name": "Linear functions & slope-intercept form", "importance": "high" },
+          { "id": "linear_equations_two_var", "name": "Linear equations in two variables", "importance": "medium" },
+          { "id": "systems_linear_equations", "name": "Systems of two linear equations", "importance": "high" },
+          { "id": "linear_inequalities", "name": "Linear inequalities in one or two variables", "importance": "medium" }
+        ]
+      },
+      {
+        "id": "advanced_math",
+        "name": "Advanced Math",
+        "weightPercentage": "35%",
+        "questionCount": "13-15 questions",
+        "description": "Nonlinear equations, quadratic functions, exponential functions, polynomials, radicals, and rational exponents.",
+        "skills": [
+          { "id": "equivalent_expressions", "name": "Equivalent algebraic expressions", "importance": "high" },
+          { "id": "nonlinear_equations_systems", "name": "Nonlinear equations in one variable & systems", "importance": "high" },
+          { "id": "quadratic_functions", "name": "Quadratic functions, vertex form & roots", "importance": "high" },
+          { "id": "exponential_functions", "name": "Exponential functions & growth/decay", "importance": "high" },
+          { "id": "polynomial_factors", "name": "Polynomial factors, roots & remainder theorem", "importance": "medium" }
+        ]
+      },
+      {
+        "id": "problem_solving",
+        "name": "Problem-Solving and Data Analysis",
+        "weightPercentage": "15%",
+        "questionCount": "5-7 questions",
+        "description": "Ratios, rates, proportional relationships, units, percentages, probability, statistics, and data displays.",
+        "skills": [
+          { "id": "ratios_rates_units", "name": "Ratios, rates, proportional relationships & unit conversion", "importance": "high" },
+          { "id": "percentages", "name": "Percentages & percent change", "importance": "high" },
+          { "id": "one_var_data", "name": "One-variable data: distributions, mean, median, standard deviation", "importance": "medium" },
+          { "id": "two_var_data", "name": "Two-variable data: models, scatterplots & lines of best fit", "importance": "medium" },
+          { "id": "probability_conditional", "name": "Probability and conditional probability from two-way tables", "importance": "medium" },
+          { "id": "evaluating_statistical_claims", "name": "Evaluating statistical claims, sampling & margin of error", "importance": "medium" }
+        ]
+      },
+      {
+        "id": "geometry_trig",
+        "name": "Geometry and Trigonometry",
+        "weightPercentage": "15%",
+        "questionCount": "5-7 questions",
+        "description": "Area and volume, lines, angles, triangles, right triangles, trigonometry, and circle equations/theorems.",
+        "skills": [
+          { "id": "area_volume", "name": "Area and volume formulas", "importance": "medium" },
+          { "id": "lines_angles_triangles", "name": "Lines, angles, and congruent/similar triangles", "importance": "high" },
+          { "id": "right_triangles_trig", "name": "Right triangle trigonometry & complementary angles", "importance": "high" },
+          { "id": "circles_theorems", "name": "Circle equations, arc length & sector area", "importance": "high" }
+        ]
+      }
+    ]
+  },
+  "reading_writing": {
+    "name": "SAT Reading and Writing",
+    "totalQuestions": 54,
+    "totalMinutes": 64,
+    "modules": 2,
+    "domains": [
+      {
+        "id": "information_ideas",
+        "name": "Information and Ideas",
+        "weightPercentage": "26%",
+        "questionCount": "12-14 questions",
+        "description": "Central ideas, key details, inferences, textual evidence, and quantitative command of evidence (tables/graphs).",
+        "skills": [
+          { "id": "central_ideas_details", "name": "Central ideas and details", "importance": "high" },
+          { "id": "inferences", "name": "Logical inferences", "importance": "high" },
+          { "id": "command_textual_evidence", "name": "Command of evidence (textual)", "importance": "high" },
+          { "id": "command_quantitative_evidence", "name": "Command of evidence (quantitative/graphs)", "importance": "medium" }
+        ]
+      },
+      {
+        "id": "craft_structure",
+        "name": "Craft and Structure",
+        "weightPercentage": "28%",
+        "questionCount": "13-15 questions",
+        "description": "High-utility vocabulary in context, overall text structure, rhetorical purpose, and cross-text connections.",
+        "skills": [
+          { "id": "words_in_context", "name": "Words in context (academic vocabulary)", "importance": "high" },
+          { "id": "text_structure_purpose", "name": "Text structure and rhetorical purpose", "importance": "high" },
+          { "id": "cross_text_connections", "name": "Cross-text connections (paired passage excerpts)", "importance": "medium" }
+        ]
+      },
+      {
+        "id": "expression_ideas",
+        "name": "Expression of Ideas",
+        "weightPercentage": "20%",
+        "questionCount": "8-12 questions",
+        "description": "Rhetorical synthesis (synthesizing student research notes) and logical transitions between sentences/paragraphs.",
+        "skills": [
+          { "id": "rhetorical_synthesis", "name": "Rhetorical synthesis (bullet point notes)", "importance": "high" },
+          { "id": "transitions", "name": "Transitions (consequently, furthermore, nevertheless, etc.)", "importance": "high" }
+        ]
+      },
+      {
+        "id": "standard_english_conventions",
+        "name": "Standard English Conventions",
+        "weightPercentage": "26%",
+        "questionCount": "11-15 questions",
+        "description": "Sentence boundaries (commas, semicolons, dashes, periods) and grammatical form, structure, and sense.",
+        "skills": [
+          { "id": "sentence_boundaries", "name": "Boundaries (run-ons, comma splices, fragments)", "importance": "high" },
+          { "id": "subject_verb_agreement", "name": "Subject-verb agreement & pronoun agreement", "importance": "high" },
+          { "id": "verb_tense_aspect", "name": "Verb tense, aspect, and mood", "importance": "medium" },
+          { "id": "modifiers", "name": "Dangling and misplaced modifiers", "importance": "high" },
+          { "id": "parallel_structure", "name": "Parallel structure & comparisons", "importance": "medium" }
+        ]
+      }
+    ]
+  }
+}

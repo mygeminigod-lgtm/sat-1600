@@ -1,0 +1,186 @@
+[
+  {
+    "id": "m-alg-01",
+    "section": "math",
+    "domain": "Algebra",
+    "topic": "Systems of Linear Equations",
+    "difficulty": "medium",
+    "prompt": "In the system of equations below, k is a constant.\n\n4x + 6y = 18\nkx + 9y = 27\n\nFor what value of k will the system of equations have infinitely many solutions?",
+    "choices": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "9" },
+      { "id": "D", "text": "12" }
+    ],
+    "correctAnswer": "B",
+    "hints": [
+      "Recall that a system of two linear equations has infinitely many solutions when the two lines are identical (coincident).",
+      "Look at the relationship between the y-coefficients: 6y and 9y. What multiplier turns the first equation into the second?",
+      "Multiplying the first equation by 1.5 gives: 4(1.5)x + 6(1.5)y = 18(1.5), which simplifies to 6x + 9y = 27."
+    ],
+    "explanation": "For a system of linear equations in standard form (A₁x + B₁y = C₁ and A₂x + B₂y = C₂) to have infinitely many solutions, the ratio of the corresponding coefficients must all be equal: A₁/A₂ = B₁/B₂ = C₁/C₂.\n\nHere, B₁/B₂ = 6/9 = 2/3, and C₁/C₂ = 18/27 = 2/3.\nTherefore, we must have 4/k = 2/3.\nCross-multiplying yields 2k = 12, so k = 6.",
+    "skill": "Systems of two linear equations",
+    "verified": true
+  },
+  {
+    "id": "m-adv-01",
+    "section": "math",
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions & Discriminant",
+    "difficulty": "hard",
+    "prompt": "The quadratic function f is defined by f(x) = 2x² - 12x + c, where c is a constant. In the xy-plane, the graph of y = f(x) has exactly one x-intercept. What is the value of c?",
+    "choices": [
+      { "id": "A", "text": "9" },
+      { "id": "B", "text": "18" },
+      { "id": "C", "text": "36" },
+      { "id": "D", "text": "72" }
+    ],
+    "correctAnswer": "B",
+    "hints": [
+      "A parabola has exactly one x-intercept when its vertex lies exactly on the x-axis.",
+      "In quadratic algebra, this means the equation 2x² - 12x + c = 0 has exactly one real solution, so its discriminant (b² - 4ac) must equal 0.",
+      "Calculate: (-12)² - 4(2)(c) = 0 and solve for c."
+    ],
+    "explanation": "For the quadratic equation ax² + bx + c = 0 to have exactly one x-intercept (one repeated real root), the discriminant b² - 4ac must equal zero.\n\nHere, a = 2, b = -12, and the constant term is c.\nDiscriminant: (-12)² - 4(2)(c) = 0\n144 - 8c = 0\n8c = 144\nc = 18.\n\nAlternative Desmos method: Type y = 2x² - 12x + c and add a slider for c. Adjust c until the parabola is tangent to the x-axis, which occurs at c = 18.",
+    "skill": "Quadratic functions, vertex form & roots",
+    "verified": true
+  },
+  {
+    "id": "m-adv-02",
+    "section": "math",
+    "domain": "Advanced Math",
+    "topic": "Exponential Growth and Decay",
+    "difficulty": "trap-1550",
+    "prompt": "A sample of radioactive isotope decays according to the model N(t) = N₀ · 2^(-t / 14), where t is the time in days and N₀ is the initial amount. Which of the following expressions represents the equivalent daily decay factor of the isotope?",
+    "choices": [
+      { "id": "A", "text": "2^(-14)" },
+      { "id": "B", "text": "(1/2)^(1/14)" },
+      { "id": "C", "text": "(1/14)^2" },
+      { "id": "D", "text": "2 - (1/14)" }
+    ],
+    "correctAnswer": "B",
+    "hints": [
+      "To find the daily factor, rewrite the expression in the standard exponential form N(t) = N₀ · (b)^t, where b is the base representing the factor for each unit increase in t (1 day).",
+      "Use exponent properties: 2^(-t / 14) can be written as (2^(-1/14))^t or ((2^(-1))^(1/14))^t.",
+      "Notice that 2^(-1) = 1/2. Therefore, (2^(-1))^(1/14) = (1/2)^(1/14)."
+    ],
+    "explanation": "Using exponent rules:\nN(t) = N₀ · 2^(-t / 14) = N₀ · [2^(-1/14)]^t = N₀ · [(2^(-1))^(1/14)]^t = N₀ · [(1/2)^(1/14)]^t.\n\nIn an exponential model of the form N(t) = N₀ · b^t, the base b represents the daily change factor. Here, b = (1/2)^(1/14).\nChoice B correctly isolates this base.",
+    "skill": "Exponential functions & growth/decay",
+    "verified": true
+  },
+  {
+    "id": "m-psda-01",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "topic": "Percentages and Proportions",
+    "difficulty": "medium",
+    "prompt": "In a laboratory experiment, the concentration of a chemical solution was increased by 25% on Monday. On Tuesday, to return the solution toward its original concentration, the researcher decreased Monday's concentration by p%. If the final concentration is 5% greater than the original concentration before Monday, what is the value of p?",
+    "choices": [
+      { "id": "A", "text": "16" },
+      { "id": "B", "text": "20" },
+      { "id": "C", "text": "24" },
+      { "id": "D", "text": "25" }
+    ],
+    "correctAnswer": "A",
+    "hints": [
+      "Pick a convenient concrete starting number, such as 100.",
+      "After a 25% increase, what is the concentration on Monday? 100 × 1.25 = 125.",
+      "The final concentration is 5% greater than 100, which is 105. By what percentage must 125 decrease to reach 105?"
+    ],
+    "explanation": "Let the original concentration be 100.\n1. After Monday's 25% increase: 100 × 1.25 = 125.\n2. The final concentration is 5% above original: 100 × 1.05 = 105.\n3. The decrease from 125 to 105 is: 125 - 105 = 20 units.\n4. The percent decrease p is: (20 / 125) × 100% = 0.16 × 100% = 16%.\n\nTherefore, p = 16 (Choice A).",
+    "skill": "Percentages & percent change",
+    "verified": true
+  },
+  {
+    "id": "m-geo-01",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "topic": "Circle Equations",
+    "difficulty": "hard",
+    "prompt": "In the xy-plane, the graph of x² + y² - 8x + 10y = 8 is a circle. What is the radius of the circle?",
+    "choices": [
+      { "id": "A", "text": "√8" },
+      { "id": "B", "text": "5" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "49" }
+    ],
+    "correctAnswer": "C",
+    "hints": [
+      "Recall the standard form of a circle equation: (x - h)² + (y - k)² = r², where r is the radius.",
+      "Complete the square for both the x terms and the y terms.",
+      "For x: (x² - 8x + 16). For y: (y² + 10y + 25). Remember to add 16 and 25 to the right side of the equation as well: 8 + 16 + 25 = 49."
+    ],
+    "explanation": "To find the radius, convert the general equation into standard form (x - h)² + (y - k)² = r² by completing the square:\n\nx² - 8x + y² + 10y = 8\n(x² - 8x + 16) + (y² + 10y + 25) = 8 + 16 + 25\n(x - 4)² + (y + 5)² = 49\n\nComparing this to standard form, r² = 49, which means the radius r = √49 = 7.\nChoice C is correct.",
+    "skill": "Circle equations, arc length & sector area",
+    "verified": true
+  },
+  {
+    "id": "rw-sec-01",
+    "section": "reading-writing",
+    "domain": "Standard English Conventions",
+    "topic": "Sentence Boundaries & Semicolons",
+    "difficulty": "medium",
+    "prompt": "Archaeologist Dr. Elena Vance uncovered a subterranean chamber dating to the 3rd century BCE; inside the stone _______ an array of bronze artifacts that challenged existing chronological timelines.",
+    "choices": [
+      { "id": "A", "text": "vault were" },
+      { "id": "B", "text": "vault, was" },
+      { "id": "C", "text": "vault was" },
+      { "id": "D", "text": "vault were," }
+    ],
+    "correctAnswer": "C",
+    "hints": [
+      "Identify the subject and verb of the second independent clause following the semicolon.",
+      "Notice the inversion: 'inside the stone vault was an array...'. The true grammatical subject comes after the verb!",
+      "The subject is 'an array' (singular), not 'artifacts' (which is the object of the preposition 'of'). A singular subject requires a singular verb."
+    ],
+    "explanation": "In inverted sentences where a prepositional phrase begins the clause ('inside the stone vault...'), the subject follows the verb. Here, the subject is the singular noun phrase 'an array of bronze artifacts'.\n\nThe head noun is 'array', which is singular. Thus, it requires the singular verb 'was'.\nChoice C ('vault was') correctly pairs the singular subject with the singular verb without unnecessary punctuation interrupting the prepositional phrase.",
+    "skill": "Boundaries (run-ons, comma splices, fragments)",
+    "verified": true
+  },
+  {
+    "id": "rw-exp-01",
+    "section": "reading-writing",
+    "domain": "Expression of Ideas",
+    "topic": "Transitions",
+    "difficulty": "hard",
+    "prompt": "In the early 1900s, astrophysicist Arthur Eddington posited that the intense pressure within stars must balance inward gravitational collapse through outward radiation pressure. Most contemporaries rejected this mechanism, arguing that radiation was insufficient to prevent collapse. _______ subsequent quantum mechanical models validated Eddington's core principle, establishing the standard model of stellar equilibrium.",
+    "choices": [
+      { "id": "A", "text": "In other words," },
+      { "id": "B", "text": "Nevertheless," },
+      { "id": "C", "text": "For instance," },
+      { "id": "D", "text": "Furthermore," }
+    ],
+    "correctAnswer": "B",
+    "hints": [
+      "Determine the logical relationship between the previous sentence ('Most contemporaries rejected this mechanism...') and the final sentence ('subsequent quantum mechanical models validated Eddington's core principle').",
+      "Is the final sentence an example, an addition, a restatement, or a contrast?",
+      "The contemporaries rejected the theory, YET later models validated it. This represents a contrast."
+    ],
+    "explanation": "Sentence 2 notes that Eddington's contemporaries doubted and rejected his hypothesis. Sentence 3 states that subsequent scientific breakthroughs validated his theory.\n\nThis is a classic contrast relationship: despite early skepticism, he was proven correct. 'Nevertheless' accurately signals this concessive contrast.\n- Choice A ('In other words') signals restatement, which is incorrect.\n- Choice C ('For instance') signals an illustration, which is incorrect.\n- Choice D ('Furthermore') signals addition, which ignores the contrast.",
+    "skill": "Transitions (consequently, furthermore, nevertheless, etc.)",
+    "verified": true
+  },
+  {
+    "id": "rw-craft-01",
+    "section": "reading-writing",
+    "domain": "Craft and Structure",
+    "topic": "Words in Context",
+    "difficulty": "trap-1550",
+    "prompt": "Despite the fierce partisan rhetoric surrounding the environmental bill, the legislative committee managed to hammer out a _______ compromise that addressed urban industrial concerns while safeguarding rural water rights.",
+    "choices": [
+      { "id": "A", "text": "tenuous" },
+      { "id": "B", "text": "judicious" },
+      { "id": "C", "text": "superfluous" },
+      { "id": "D", "text": "dogmatic" }
+    ],
+    "correctAnswer": "B",
+    "hints": [
+      "Pay close attention to the context: the compromise 'addressed urban industrial concerns while safeguarding rural water rights'.",
+      "This indicates the compromise was well-balanced, sensible, and wise.",
+      "Evaluate the choices: 'judicious' means showing good judgment or sense, fitting the positive context of successfully balancing competing interests."
+    ],
+    "explanation": "Context clue: the compromise successfully balanced two disparate interests ('addressed urban industrial concerns while safeguarding rural water rights'). This describes a well-considered, prudent agreement.\n\n- 'Judicious' means exhibiting sound judgment, discretion, and wisdom—matching the sentence perfectly.\n- 'Tenuous' means weak or flimsy, which contradicts the accomplishment.\n- 'Superfluous' means unnecessary or excessive.\n- 'Dogmatic' means rigidly opinionated, the opposite of a compromise.",
+    "skill": "Words in context (academic vocabulary)",
+    "verified": true
+  }
+]

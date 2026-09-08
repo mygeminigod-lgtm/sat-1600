@@ -1,0 +1,142 @@
+[
+  {
+    "id": "fc-vocab-01",
+    "category": "vocab",
+    "front": "Anomalous (adj.)",
+    "back": "Deviating from what is standard, normal, or expected; irregular, atypical.\n\nContext: The researcher observed an anomalous surge in voltage during the cooling phase.",
+    "difficulty": "medium",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-vocab-02",
+    "category": "vocab",
+    "front": "Bolster (verb)",
+    "back": "To support, strengthen, or prop up with evidence or arguments.\n\nContext: The scientist cited three empirical studies to bolster her hypothesis.",
+    "difficulty": "easy",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-vocab-03",
+    "category": "vocab",
+    "front": "Equivocal (adj.)",
+    "back": "Open to more than one interpretation; ambiguous; uncertain.\n\nContext: The preliminary archaeological findings remained equivocal regarding the temple's original builder.",
+    "difficulty": "hard",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-vocab-04",
+    "category": "vocab",
+    "front": "Pragmatic (adj.)",
+    "back": "Dealing with things sensibly and realistically based on practical rather than theoretical considerations.",
+    "difficulty": "easy",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-vocab-05",
+    "category": "vocab",
+    "front": "Prosaic (adj.)",
+    "back": "Having the style or diction of prose; lacking poetic beauty; commonplace or unromantic.\n\nContext: The building's utilitarian facade appeared prosaic compared to the ornate cathedral nearby.",
+    "difficulty": "hard",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-math-01",
+    "category": "math",
+    "front": "Vertex Form of a Parabola",
+    "back": "y = a(x - h)² + k\n\n• (h, k) is the vertex.\n• If a > 0, parabola opens UP (k is minimum).\n• If a < 0, parabola opens DOWN (k is maximum).\n• Axis of symmetry is the vertical line x = h.",
+    "difficulty": "medium",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-math-02",
+    "category": "math",
+    "front": "Discriminant (b² - 4ac) Properties",
+    "back": "For ax² + bx + c = 0:\n\n• b² - 4ac > 0 → 2 distinct real solutions (two x-intercepts)\n• b² - 4ac = 0 → 1 real solution (tangent to x-axis at vertex)\n• b² - 4ac < 0 → 0 real solutions (no x-intercepts)",
+    "difficulty": "medium",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-math-03",
+    "category": "math",
+    "front": "Sum and Product of Roots (Vieta's Formulas)",
+    "back": "For quadratic ax² + bx + c = 0 with roots r₁ and r₂:\n\n• Sum of roots: r₁ + r₂ = -b / a\n• Product of roots: r₁ · r₂ = c / a\n\nSaves 45 seconds on 'What is the sum of the solutions?' questions!",
+    "difficulty": "hard",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-math-04",
+    "category": "math",
+    "front": "Circle Equation in Standard Form",
+    "back": "(x - h)² + (y - k)² = r²\n\n• Center is (h, k) — note the opposite signs!\n• Radius is r (take square root of the constant on the right side).",
+    "difficulty": "medium",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-grammar-01",
+    "category": "grammar",
+    "front": "Semicolon Rule (;)",
+    "back": "[Independent Clause] ; [Independent Clause]\n\nA semicolon separates two grammatically complete sentences without a coordinating conjunction (FANBOYS). Both sides MUST be able to stand alone.",
+    "difficulty": "easy",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-grammar-02",
+    "category": "grammar",
+    "front": "Single Colon Rule (:)",
+    "back": "[Must be an Independent Clause] : [Explanation, List, or Clarification]\n\nThe clause BEFORE the colon must be a complete sentence. What comes after can be a list, single word, phrase, or explanation.",
+    "difficulty": "medium",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-grammar-03",
+    "category": "grammar",
+    "front": "Dangling Modifiers Rule",
+    "back": "An introductory modifying phrase MUST be immediately followed by the noun it describes.\n\n❌ 'Running to the bus, my backpack fell.' (The backpack wasn't running!)\n✓ 'Running to the bus, I dropped my backpack.'",
+    "difficulty": "medium",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-desmos-01",
+    "category": "desmos",
+    "front": "Desmos System of Equations Solver",
+    "back": "Type both equations directly into Desmos:\nLine 1: 3x - 5y = 12\nLine 2: 2x + 7y = -4\n\nClick directly on the intersection point! Desmos displays the coordinates (x, y) with zero manual algebra required.",
+    "difficulty": "easy",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  },
+  {
+    "id": "fc-desmos-02",
+    "category": "desmos",
+    "front": "Desmos Regression for Unknown Constants (~)",
+    "back": "To find a constant or model fit:\n1. Insert a table with data points (x₁, y₁).\n2. Type the model with a tilde instead of equals:\n   y₁ ~ a(x₁ - h)² + k\nDesmos automatically calculates optimal values for a, h, and k!",
+    "difficulty": "hard",
+    "repetitions": 0,
+    "intervalDays": 1,
+    "isKnown": false
+  }
+]

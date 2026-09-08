@@ -88,33 +88,33 @@ export default function CommandPalette({ isOpen, onClose }: { isOpen: boolean; o
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-20 px-4 bg-slate-950/80 backdrop-blur-sm animate-fade-in">
+    <div className="fixed inset-0 z-50 flex items-start justify-center pt-20 px-4 bg-slate-900/40 backdrop-blur-sm animate-fade-in">
       <div
-        className="w-full max-w-xl rounded-2xl bg-slate-900 border border-slate-700 shadow-2xl overflow-hidden"
+        className="w-full max-w-xl rounded-2xl bg-white border border-slate-200 shadow-2xl overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="relative flex items-center border-b border-slate-800 px-4 py-3">
-          <Search className="w-5 h-5 text-emerald-400 mr-3 shrink-0" />
+        <div className="relative flex items-center border-b border-slate-200 px-4 py-3 bg-slate-50/50">
+          <Search className="w-5 h-5 text-blue-600 mr-3 shrink-0" />
           <input
             type="text"
             placeholder="Search all SAT guides, practice tools, topics, and resources..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             autoFocus
-            className="w-full bg-transparent text-sm text-white placeholder-slate-400 focus:outline-none"
+            className="w-full bg-transparent text-sm text-slate-900 placeholder-slate-400 focus:outline-none"
           />
           <button
             onClick={onClose}
-            className="p-1 rounded-md text-slate-400 hover:text-white hover:bg-slate-800"
+            className="p-1 rounded-md text-slate-400 hover:text-slate-700 hover:bg-slate-100"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
 
-        <div className="max-h-96 overflow-y-auto p-2 divide-y divide-slate-800/40">
+        <div className="max-h-96 overflow-y-auto p-2 divide-y divide-slate-100">
           {filteredItems.length === 0 ? (
-            <div className="p-8 text-center text-sm text-slate-400">
-              No results found for &ldquo;{query}&rdquo;. Try searching for &ldquo;math&rdquo;, &ldquo;bluebook&rdquo;, or &ldquo;mistakes&rdquo;.
+            <div className="p-8 text-center text-sm text-slate-500">
+              No results found for &ldquo;{query}&rdquo;. Try searching for &ldquo;math&rdquo;, &ldquo;bluebook&rdquo;, or &ldquo;resources&rdquo;.
             </div>
           ) : (
             filteredItems.map((item) => {
@@ -123,27 +123,27 @@ export default function CommandPalette({ isOpen, onClose }: { isOpen: boolean; o
                 <button
                   key={item.href}
                   onClick={() => handleSelect(item.href)}
-                  className="w-full flex items-center justify-between p-3 rounded-xl hover:bg-slate-800/80 text-left transition-colors group"
+                  className="w-full flex items-center justify-between p-3 rounded-xl hover:bg-slate-50 text-left transition-colors group"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="p-2 rounded-lg bg-slate-800 text-emerald-400 group-hover:bg-emerald-500/20 transition-colors">
+                    <div className="p-2 rounded-lg bg-blue-50 text-blue-600 group-hover:bg-blue-100 transition-colors">
                       <Icon className="w-4 h-4" />
                     </div>
                     <div>
-                      <div className="text-sm font-medium text-slate-200 group-hover:text-emerald-300">
+                      <div className="text-sm font-medium text-slate-900 group-hover:text-blue-700">
                         {item.title}
                       </div>
-                      <div className="text-xs text-slate-400">{item.category}</div>
+                      <div className="text-xs text-slate-500">{item.category}</div>
                     </div>
                   </div>
-                  <span className="text-xs text-slate-500 font-mono">Jump →</span>
+                  <span className="text-xs text-slate-400 font-mono">Jump →</span>
                 </button>
               );
             })
           )}
         </div>
 
-        <div className="p-2.5 bg-slate-950 border-t border-slate-800 text-[11px] text-slate-500 flex justify-between items-center px-4">
+        <div className="p-2.5 bg-slate-50 border-t border-slate-200 text-[11px] text-slate-500 flex justify-between items-center px-4">
           <span>Navigate with <strong>↑</strong> <strong>↓</strong> and <strong>Enter</strong></span>
           <span>Press <strong>ESC</strong> to dismiss</span>
         </div>
